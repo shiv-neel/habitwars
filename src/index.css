@@ -10,4 +10,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.test {
+  color: rgb(156, 157, 165);
 }

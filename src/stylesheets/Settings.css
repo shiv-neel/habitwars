@@ -1,0 +1,13 @@
+.Settings {
+    /* background-color: beige; */
+    width: 60%;
+    min-height: 80vh;
+    text-align: left;
+    margin-left: 25rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
