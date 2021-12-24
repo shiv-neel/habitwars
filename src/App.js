@@ -16,7 +16,6 @@ import Account from './Account'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
-import { lightBlue } from '@material-ui/core/colors'
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('Dashboard')
