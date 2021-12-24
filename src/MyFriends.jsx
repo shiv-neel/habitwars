@@ -1,12 +1,12 @@
 import React from 'react'
-import './stylesheets/MyFriends.css'
+import './stylesheets/Friends.css'
 
-const MyFriends = () => {
-    return (
-        <div className='MyFriends'>
-            <h1 className='title'>My Friends</h1>
-        </div>
-    )
+const Friends = () => {
+  return (
+    <div className='Friends'>
+      <h1 className='title'>Friends</h1>
+    </div>
+  )
 }
 
-export default MyFriends
+export default Friends
