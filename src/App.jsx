@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+import './stylesheets/App.css'
 
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 
 import Dashboard from './Dashboard'
 import MyHabits from './MyHabits'
-import MyFriends from './MyFriends'
+import Friends from './Friends'
 import Challenges from './Challenges'
 import Settings from './Settings'
 import Account from './Account'
@@ -31,7 +31,7 @@ function App() {
         return <MyHabits />
 
       case 'Friends':
-        return <MyFriends />
+        return <Friends />
 
       case 'Challenges':
         return <Challenges />

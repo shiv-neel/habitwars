@@ -35,6 +35,8 @@ const Dashboard = (props) => {
                 return 'Friday'
             case 6:
                 return 'Saturday'
+            default:
+                return 'Error'
         }
     }
 
@@ -64,13 +66,19 @@ const Dashboard = (props) => {
                 return 'November'
             case 11:
                 return 'December'
-            
+            default:
+                return 'Error'
         }
     }
+
     return (
         <div className='Dashboard'>
             <h1 className='title'>Good {timeofday(hr)}, {props.username}.</h1>
-            <h3 style={{fontSize: '1.5rem', color: '#007bff'}}>Today is <strong>{whichday(dayofweek)}</strong>, {whichmonth(month) + ' ' + day}.</h3>
+            <h3 style={{fontSize: '1.5rem', color: '#007bff'}}>
+                Today is <strong>{whichday(dayofweek)}</strong>, {whichmonth(month) + ' ' + day}.
+                {month === 11 && day === '24' ? ' Merry Christmas Eve!' : ''}
+                {month === 11 && day === '25' ? ' Merry Christmas!' : ''}
+            </h3>
         </div>
     )
 }
