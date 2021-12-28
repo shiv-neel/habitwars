@@ -1,7 +1,7 @@
 import React from 'react'
 import '../index.css'
 import '../stylesheets/Sidebar.css'
-import DonutLargeIcon from '@mui/icons-material/DonutLarge';
+import GridViewIcon from '@mui/icons-material/GridView';
 import AutoGraphIcon from '@mui/icons-material/AutoGraph';
 import GroupIcon from '@mui/icons-material/Group';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
@@ -18,7 +18,7 @@ const Sidebar = (props) => {
         <div className='navigation'>
             <ul>
                 <SidebarItem title='Dashboard' 
-                icon={<DonutLargeIcon/>} 
+                icon={<GridViewIcon/>} 
                 page='Dashboard' 
                 selectedPage={props.selectedPage}
                 setSelectedPage={props.setSelectedPage}
