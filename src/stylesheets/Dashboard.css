@@ -1,11 +1,20 @@
 .Dashboard {
-    /* background-color: beige; */
-    width: 60%;
-    min-height: 80vh;
-    text-align: left;
-    margin-left: 25rem;
+  /* background-color: beige; */
+  width: 60%;
+  min-height: 80vh;
+  text-align: left;
+  margin-left: 25rem;
+}
+
+.dashboard-cards {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.dashboard-cards > * {
+  margin: 0.5rem;
 }
 
 .title {
-    font-size: 3rem;
+  font-size: 3rem;
 }

@@ -13,7 +13,7 @@ const MyHabits = () => {
         }, 
         {
             id: 1,
-            title: 'Avoid taking a mid-day nap',
+            title: 'Avoid smoking',
             date: 'September 14, 2021'
         }
     ]
