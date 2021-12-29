@@ -13,7 +13,7 @@ const Navbar = (props) => {
       <nav className='nav-menu'>
         <NavItem onClick={() => props.setSelectedPage('My Friends')} icon={<GroupAddIcon fontSize='medium' style={{ color: 'lightgray', fontSize: '30px' }} />} />
         <NavItem icon={<NotificationsSharpIcon fontSize='medium' style={{ color: 'lightgray', fontSize: '30px' }} />} />
-        <NavItem onClick={() => props.setSelectedPage('Account')} icon={<AccountCircleSharpIcon fontSize='large' style={{ fontSize: '50px', marginLeft: 5 }} />} />
+        <NavItem onClick={() => props.setSelectedPage('Account')} icon={<AccountCircleSharpIcon fontSize='large' style={{ fontSize: '50px', marginLeft: 5, color: '007bff' }} />} />
       </nav>
     </>
   )
